@@ -1,5 +1,15 @@
 # Program make a simple calculator
+import logging
+import sys
 
+logger = logging.getLogger()
+logger.setLevel(logging.DEBUG)
+formatter = logging.Formatter(u'[%(asctime)s] %(message)s')
+
+file_handler = logging.FileHandler('output.log')
+file_handler.setFormatter(formatter)
+
+logger.addHandler(file_handler)
 # This function adds two numbers
 def add(x, y):
     return x + y
@@ -14,7 +24,13 @@ def multiply(x, y):
 
 #Need to define divide function.
 def divide (x,y):
-    return x / y
+    try:
+        result = x / y
+        return result
+    except ZeroDivisionError as e:
+        logging.error(e)
+        return e
+    
 
 print("Select operation.")
 print("1.Add")
@@ -29,8 +45,12 @@ while True:
 
     # check if choice is one of the four options
     if choice in ('1', '2', '3', '4'):
-        num1 = float(input("Enter first number: "))
-        num2 = float(input("Enter second number: "))
+        try:
+            num1 = float(input("Enter first number: "))
+            num2 = float(input("Enter second number: "))
+            logging.info(f'input numbers are {num1} and {num2}')
+        except ValueError as e:
+            logging.error(f'Invalid Input: {e}')
 
         if choice == '1':
             print(num1, "+", num2, "=", add(num1, num2))
@@ -50,4 +70,4 @@ while True:
             break
 
     else:
-        print("Invalid Input")
+        logging.warning("Invalid Input")
