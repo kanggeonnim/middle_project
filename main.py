@@ -24,12 +24,7 @@ def multiply(x, y):
 
 #Need to define divide function.
 def divide (x,y):
-    try:
-        result = x / y
-        return result
-    except ZeroDivisionError as e:
-        logging.error(e)
-        return e
+    return x / y
     
 
 print("Select operation.")
@@ -48,9 +43,9 @@ while True:
         try:
             num1 = float(input("Enter first number: "))
             num2 = float(input("Enter second number: "))
-            logging.info(f'input numbers are {num1} and {num2}')
+            logging.info(f'INFO: input numbers are {num1} and {num2}')
         except ValueError as e:
-            logging.error(f'Invalid Input: {e}')
+            logging.error(f'Error: {e}')
 
         if choice == '1':
             print(num1, "+", num2, "=", add(num1, num2))
@@ -62,7 +57,11 @@ while True:
             print(num1, "*", num2, "=", multiply(num1, num2))
 
         elif choice =='4':
-            print(num1, "/", num2, "=", divide(num1, num2))
+            try:           
+                print(num1, "/", num2, "=", divide(num1, num2))
+            except ZeroDivisionError as e:
+                logger.error(f'Error: {e}')
+                print("Not divisible by zero")
         # check if user wants another calculation
         # break the while loop if answer is no
         next_calculation = input("Let's do next calculation? (yes/no): ")
@@ -70,4 +69,5 @@ while True:
             break
 
     else:
-        logging.warning("Invalid Input")
+        logging.warning("Warning: Invalid Input")
+        print("Invalid Input. Please select one of 1,2,3,4")
