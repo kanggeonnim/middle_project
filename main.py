@@ -1,30 +1,42 @@
 # Program make a simple calculator
 import logging
 import sys
+import inspect
 
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
 formatter = logging.Formatter(u'[%(asctime)s] %(message)s')
-
 file_handler = logging.FileHandler('output.log')
 file_handler.setFormatter(formatter)
 
 logger.addHandler(file_handler)
 # This function adds two numbers
 def add(x, y):
-    return x + y
+    result = x + y
+    logger.info(f'{inspect.currentframe().f_code.co_name} {y}, {x} result = {result}')
+    return result
 
 # This function subtracts two numbers
 def subtract(x, y):
-    return x - y
+    result = x - y
+    logger.info(f'{inspect.currentframe().f_code.co_name} {y}, {x} result = {result}')
+    return result
 
 # This function multiplies two numbers
 def multiply(x, y):
-    return x * y
+    result = x * y
+    logger.info(f'{inspect.currentframe().f_code.co_name} {y}, {x} result = {result}')
+    return result
 
 #Need to define divide function.
 def divide (x,y):
-    return x / y
+    try: 
+        result = x / y
+        logger.info(f'{inspect.currentframe().f_code.co_name} {y}, {x} result = {result}')
+        return result
+    except ZeroDivisionError as e:
+        logger.error(f'Error: {e}')
+        print("Not divisible by zero")
     
 
 print("Select operation.")
@@ -45,23 +57,20 @@ while True:
             num2 = float(input("Enter second number: "))
             logging.info(f'INFO: input numbers are {num1} and {num2}')
         except ValueError as e:
-            logging.error(f'Error: {e}')
+            logging.error(f'Errorno: {e}')
 
         if choice == '1':
             print(num1, "+", num2, "=", add(num1, num2))
-
+    
         elif choice == '2':
             print(num1, "-", num2, "=", subtract(num1, num2))
 
         elif choice == '3':
             print(num1, "*", num2, "=", multiply(num1, num2))
 
-        elif choice =='4':
-            try:           
-                print(num1, "/", num2, "=", divide(num1, num2))
-            except ZeroDivisionError as e:
-                logger.error(f'Error: {e}')
-                print("Not divisible by zero")
+        elif choice =='4':           
+            print(num1, "/", num2, "=", divide(num1, num2))
+           
         # check if user wants another calculation
         # break the while loop if answer is no
         next_calculation = input("Let's do next calculation? (yes/no): ")
