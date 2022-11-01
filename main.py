@@ -30,14 +30,9 @@ def multiply(x, y):
 
 #Need to define divide function.
 def divide (x,y):
-    try: 
-        result = x / y
-        logger.info(f'{inspect.currentframe().f_code.co_name} {y}, {x} result = {result}')
-        return result
-    except ZeroDivisionError as e:
-        logger.error(f'Error: {e}')
-        print("Not divisible by zero")
-    
+    result = x / y
+    logger.info(f'{inspect.currentframe().f_code.co_name} {y}, {x} result = {result}')
+    return result
 
 print("Select operation.")
 print("1.Add")
@@ -67,10 +62,14 @@ while True:
 
         elif choice == '3':
             print(num1, "*", num2, "=", multiply(num1, num2))
-
-        elif choice =='4':           
-            print(num1, "/", num2, "=", divide(num1, num2))
            
+        elif choice == '4':
+            try:         
+                print(num1, "/", num2, "=", divide(num1, num2))
+            except ZeroDivisionError as e:
+                print("Not divisible by zero")
+                logger.error(f'Error: {e}')
+
         # check if user wants another calculation
         # break the while loop if answer is no
         next_calculation = input("Let's do next calculation? (yes/no): ")
