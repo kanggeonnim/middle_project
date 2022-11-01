@@ -34,6 +34,8 @@ def divide (x,y):
     logger.info(f'{inspect.currentframe().f_code.co_name} {y}, {x} result = {result}')
     return result
 
+yesno_list = ['yes', 'y', 'no', 'n']
+
 print("Select operation.")
 print("1.Add")
 print("2.Subtract")
@@ -72,9 +74,18 @@ while True:
 
         # check if user wants another calculation
         # break the while loop if answer is no
-        next_calculation = input("Let's do next calculation? (yes/no): ")
-        if next_calculation == "no":
+
+        next_calculation = (input("Let's do next calculation? (yes/no): ")).lower()
+        while True:
+            if next_calculation in yesno_list:
+                break
+            else:
+                next_calculation = (input("Please answer only (yes/no): ")).lower()
+        if next_calculation == "no" or next_calculation == "n":
             break
+        elif next_calculation =="yes" or next_calculation == 'y':
+            continue
+
 
     else:
         logging.warning("Warning: Invalid Input")
