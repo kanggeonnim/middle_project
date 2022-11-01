@@ -3,6 +3,8 @@ import logging
 import sys
 import inspect
 
+from calculate import add, subtract, multiply, divide
+
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
 formatter = logging.Formatter(u'[%(asctime)s] %(message)s')
@@ -10,29 +12,6 @@ file_handler = logging.FileHandler('output.log')
 file_handler.setFormatter(formatter)
 
 logger.addHandler(file_handler)
-# This function adds two numbers
-def add(x, y):
-    result = x + y
-    logger.info(f'{inspect.currentframe().f_code.co_name} {y}, {x} result = {result}')
-    return result
-
-# This function subtracts two numbers
-def subtract(x, y):
-    result = x - y
-    logger.info(f'{inspect.currentframe().f_code.co_name} {y}, {x} result = {result}')
-    return result
-
-# This function multiplies two numbers
-def multiply(x, y):
-    result = x * y
-    logger.info(f'{inspect.currentframe().f_code.co_name} {y}, {x} result = {result}')
-    return result
-
-#Need to define divide function.
-def divide (x,y):
-    result = x / y
-    logger.info(f'{inspect.currentframe().f_code.co_name} {y}, {x} result = {result}')
-    return result
 
 yes_list = ['yes', 'y']
 no_list = ['no', 'n']
