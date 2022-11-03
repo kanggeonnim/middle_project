@@ -22,7 +22,7 @@ print("3.Multiply")
 print("4.Divide") 
 
 while True:
-    # take input from the user
+    # take input from the xuser
     choice = input("Enter choice(1/2/3/4): ")
 
     # check if choice is one of the four options
@@ -35,6 +35,13 @@ while True:
             logging.info(f'INFO: input numbers are {num1} and {num2}')
         except ValueError as e:
             logging.error(f'Errorno: {e}')
+            print('Please enter only numbers')
+            next_calculation = isExit()
+            if next_calculation == "no":
+                break
+            elif next_calculation == "yes":
+                continue
+
 
         if choice == '1':
             print(num1, "+", num2, "=", add(num1, num2))
@@ -51,6 +58,7 @@ while True:
             except ZeroDivisionError as e:
                 print("Not divisible by zero")
                 logger.error(f'Error: {e}')
+
 
         next_calculation = isExit()
         if next_calculation == "no":
