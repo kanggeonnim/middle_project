@@ -172,3 +172,28 @@
 [2022-11-01 21:34:36,671] multiply 0.0, 3.0 result = 0.0
 [2022-11-01 21:34:43,511] INFO: input numbers are 3.0 and 0.0
 [2022-11-01 21:34:43,512] Error: float division by zero
+[2022-11-03 15:42:27,131] INFO: input numbers are 2.0 and 3.0
+[2022-11-03 15:42:27,132] add 3.0, 2.0 result = 5.0
+[2022-11-03 15:42:38,381] INFO: input numbers are 5.0 and 3.0
+[2022-11-03 15:42:38,382] subtract 3.0, 5.0 result = 2.0
+[2022-11-03 15:42:53,285] INFO: input numbers are 7.0 and 8.0
+[2022-11-03 15:42:53,285] multiply 8.0, 7.0 result = 56.0
+[2022-11-03 15:43:00,286] INFO: input numbers are 10.0 and 2.0
+[2022-11-03 15:43:00,287] divide 2.0, 10.0 result = 5.0
+[2022-11-03 15:49:39,011] INFO: input numbers are 16.0 and 0.0
+[2022-11-03 15:49:39,012] Error: float division by zero
+[2022-11-03 15:52:04,887] Warning: Invalid Input
+[2022-11-03 15:52:30,662] Errorno: could not convert string to float: 'error'
+[2022-11-03 15:58:38,803] Errorno: could not convert string to float: 'ㄷ'
+[2022-11-03 16:05:32,876] Warning: Invalid Input
+[2022-11-03 16:05:44,644] Errorno: could not convert string to float: 'string'
+[2022-11-03 16:14:40,771] INFO: input numbers are 2.0 and 3.0
+[2022-11-03 16:14:40,771] add 3.0, 2.0 result = 5.0
+[2022-11-03 16:14:52,790] INFO: input numbers are 2.0 and 3.0
+[2022-11-03 16:14:52,790] add 3.0, 2.0 result = 5.0
+[2022-11-03 16:15:11,506] INFO: input numbers are 2.0 and 3.0
+[2022-11-03 16:15:11,506] add 3.0, 2.0 result = 5.0
+[2022-11-03 16:16:00,295] INFO: input numbers are 2.0 and 3.0
+[2022-11-03 16:16:00,295] add 3.0, 2.0 result = 5.0
+[2022-11-03 16:16:27,567] INFO: input numbers are 3.0 and 4.0
+[2022-11-03 16:16:27,568] subtract 4.0, 3.0 result = -1.0
