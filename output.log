@@ -1,0 +1,174 @@
+2022-10-31 20:52:11,322 [   DEBUG] debug logging
+2022-10-31 20:53:11,963 [DEBUG] debug logging
+2022-10-31 20:53:35,803 [DEBUG] debug logging
+2022-10-31 21:00:34,457 [DEBUG] debug logging <module> main.py
+2022-10-31 21:01:20,156 [DEBUG] debug logging <module> main.py MainProcess
+2022-11-01 00:50:11,643 main.py 
+2022-11-01 00:50:14,104 main.py 
+2022-11-01 00:51:01,023 main.py 
+2022-11-01 00:51:04,791 main.py 
+2022-11-01 00:52:01,343 main.py 
+2022-11-01 00:52:08,238 main.py 
+2022-11-01 00:52:13,510 main.py 
+2022-11-01 00:52:15,122 main.py 
+2022-11-01 00:52:20,070 main.py 
+2022-11-01 00:53:49,672 main.py 
+2022-11-01 00:53:50,692 main.py 
+2022-11-01 00:53:50,692 main.py 
+2022-11-01 00:56:55,741 main.py debug logging 
+2022-11-01 00:56:57,484 main.py x y 
+2022-11-01 00:56:57,485 main.py input numbers are 1.0 and 1.0 
+2022-11-01 01:00:39,795 input numbers are 3.0 and 0.0
+2022-11-01 01:00:49,369 input numbers are 3.0 and 0.0
+2022-11-01 01:12:20,213 input numbers are 1.0 and 2.0
+2022-11-01 01:14:54,916 6
+2022-11-01 01:43:28,921 6
+2022-11-01 01:43:35,541 6
+2022-11-01 01:44:16,704 could not convert string to float: 'e'
+2022-11-01 01:45:24,131 Invalid Input could not convert string to float: 'e'
+2022-11-01 01:45:50,876 Invalid Input: could not convert string to float: 'e'
+[2022-11-01 01:46:18,758] Invalid Input: could not convert string to float: 'e'
+[2022-11-01 01:50:06,922] Invalid Input
+[2022-11-01 01:52:11,337] input numbers are 3.0 and 0.0
+[2022-11-01 01:53:05,132] Invalid Input: could not convert string to float: 
+[2022-11-01 01:53:10,583] input numbers are 0.0 and 0.0
+[2022-11-01 01:53:10,584] float division by zero
+[2022-11-01 01:53:20,858] input numbers are 3.0 and 0.0
+[2022-11-01 01:53:20,858] float division by zero
+[2022-11-01 01:54:11,090] Invalid Input
+[2022-11-01 01:54:18,128] input numbers are 6.0 and 0.0
+[2022-11-01 01:54:18,128] float division by zero
+[2022-11-01 01:55:06,593] input numbers are 3.0 and 0.0
+[2022-11-01 01:55:06,594] float division by zero
+[2022-11-01 02:01:20,699] input numbers are 3.0 and 0.0
+[2022-11-01 02:01:20,700] float division by zero
+[2022-11-01 02:01:59,476] input numbers are 3.0 and 0.0
+[2022-11-01 02:01:59,477] Error: float division by zero
+[2022-11-01 02:06:17,060] Invalid Input! Please select one of 1,2,3,4
+[2022-11-01 02:06:22,845] Invalid Input: could not convert string to float: 'ㄷ'
+[2022-11-01 02:06:51,599] Invalid Input! Please select one of 1,2,3,4
+[2022-11-01 02:07:18,056] Invalid Input
+[2022-11-01 02:07:29,451] input numbers are 3.0 and 0.0
+[2022-11-01 02:07:29,451] Error: float division by zero
+[2022-11-01 02:08:23,876] Warning: Invalid Input
+[2022-11-01 02:08:39,246] Invalid Input: could not convert string to float: 'e'
+[2022-11-01 02:08:57,771] INFO: input numbers are 3.0 and 0.0
+[2022-11-01 02:08:57,771] Error: float division by zero
+[2022-11-01 02:14:19,865] Error: could not convert string to float: 'e'
+[2022-11-01 02:16:27,624] INFO: input numbers are 2.0 and 3.0
+[2022-11-01 02:16:38,118] INFO: input numbers are 1.0 and 1.0
+[2022-11-01 02:17:22,436] INFO: input numbers are 1.0 and 1.0
+[2022-11-01 14:24:13,450] INFO: input numbers are 1.0 and 1.0
+[2022-11-01 14:24:13,451] %(funName)s
+[2022-11-01 14:25:04,790] INFO: input numbers are 1.0 and 1.0
+[2022-11-01 14:25:04,790] %(funName)s
+[2022-11-01 14:26:51,481] INFO: input numbers are 1.0 and 1.0 <module>
+[2022-11-01 14:26:51,482] Hi add
+[2022-11-01 14:28:07,771] INFO: input numbers are 1.0 and 1.0 <module>
+[2022-11-01 14:28:07,771] function( add
+[2022-11-01 14:28:30,713] INFO: input numbers are 1.0 and 1.0 <module>
+[2022-11-01 14:28:30,714] %(funcName)s add
+[2022-11-01 14:30:08,847] Warning: Invalid Input <module>
+[2022-11-01 14:30:13,597] Warning: Invalid Input <module>
+[2022-11-01 14:30:17,668] INFO: input numbers are 1.0 and 2.0 <module>
+[2022-11-01 14:30:23,682] INFO: input numbers are 3.0 and 0.0 <module>
+[2022-11-01 14:30:23,683] Error: float division by zero <module>
+[2022-11-01 14:33:05,714] INFO: input numbers are 1.0 and 1.0 <module>
+[2022-11-01 14:33:05,714] __main__ add
+[2022-11-01 14:34:33,846] INFO: input numbers are 1.0 and 1.0 <module>
+[2022-11-01 14:34:33,847] add add
+[2022-11-01 14:35:49,635] INFO: input numbers are 1.0 and 1.0 <module>
+[2022-11-01 14:35:49,635] 1.0 add 1.0 is 2.0 add
+[2022-11-01 14:36:21,578] INFO: input numbers are 1.0 and 1.0 <module>
+[2022-11-01 14:36:21,578] add 1.0, 1.0 = 2.0 add
+[2022-11-01 14:36:59,089] INFO: input numbers are 1.0 and 1.0
+[2022-11-01 14:36:59,089] add 1.0, 1.0 result =  2.0
+[2022-11-01 14:38:27,682] INFO: input numbers are 3.0 and 0.0
+[2022-11-01 14:38:27,682] Error: float division by zero
+[2022-11-01 14:39:52,574] INFO: input numbers are 1.0 and 1.0
+[2022-11-01 14:39:52,575] add 1.0, 1.0 result = 2.0
+[2022-11-01 14:52:40,740] INFO: input numbers are 3.0 and 0.0
+[2022-11-01 14:52:40,740] Error: float division by zero
+[2022-11-01 16:19:56,126] INFO: input numbers are 3.0 and 0.0
+[2022-11-01 16:19:56,127] Error: float division by zero
+[2022-11-01 16:20:33,984] INFO: input numbers are 3.0 and 0.0
+[2022-11-01 16:20:33,985] Error: float division by zero
+[2022-11-01 16:20:47,863] INFO: input numbers are 2.0 and 0.0
+[2022-11-01 16:20:47,863] multiply 0.0, 2.0 result = 0.0
+[2022-11-01 16:20:52,466] Warning: Invalid Input
+[2022-11-01 16:20:55,528] INFO: input numbers are 3.0 and 0.0
+[2022-11-01 16:20:55,529] multiply 0.0, 3.0 result = 0.0
+[2022-11-01 16:21:10,244] INFO: input numbers are 3.0 and 0.0
+[2022-11-01 16:21:10,245] Error: float division by zero
+[2022-11-01 16:21:34,752] INFO: input numbers are 3.0 and 0.0
+[2022-11-01 16:21:34,753] Error: float division by zero
+[2022-11-01 16:22:54,296] INFO: input numbers are 3.0 and 0.0
+[2022-11-01 17:03:30,022] INFO: input numbers are 3.0 and 0.0
+[2022-11-01 17:03:51,904] INFO: input numbers are 3.0 and 0.0
+[2022-11-01 17:03:51,905] Error: float division by zero
+[2022-11-01 17:05:18,068] INFO: input numbers are 2.0 and 3.0
+[2022-11-01 17:05:18,068] add 3.0, 2.0 result = 5.0
+[2022-11-01 17:05:27,072] INFO: input numbers are 5.0 and 7.0
+[2022-11-01 17:05:27,073] subtract 7.0, 5.0 result = -2.0
+[2022-11-01 17:18:47,453] INFO: input numbers are 3.0 and 3.0
+[2022-11-01 17:18:47,454] multiply 3.0, 3.0 result = 9.0
+[2022-11-01 17:25:34,516] INFO: input numbers are 1.0 and 2.0
+[2022-11-01 17:25:34,517] add 2.0, 1.0 result = 3.0
+[2022-11-01 17:29:48,217] INFO: input numbers are 3.0 and 3.0
+[2022-11-01 17:29:48,218] divide 3.0, 3.0 result = 1.0
+[2022-11-01 17:30:05,620] INFO: input numbers are 2.0 and 2.0
+[2022-11-01 17:30:05,620] subtract 2.0, 2.0 result = 0.0
+[2022-11-01 17:48:36,444] INFO: input numbers are 1.0 and 1.0
+[2022-11-01 17:48:36,444] add 1.0, 1.0 result = 2.0
+[2022-11-01 17:49:19,435] INFO: input numbers are 1.0 and 1.0
+[2022-11-01 17:49:19,435] add 1.0, 1.0 result = 2.0
+[2022-11-01 17:50:47,014] INFO: input numbers are 1.0 and 1.0
+[2022-11-01 17:50:47,014] add 1.0, 1.0 result = 2.0
+[2022-11-01 17:50:52,767] INFO: input numbers are 1.0 and 1.0
+[2022-11-01 17:50:52,768] add 1.0, 1.0 result = 2.0
+[2022-11-01 19:32:46,819] INFO: input numbers are 1.0 and 1.0
+[2022-11-01 19:32:46,819] add 1.0, 1.0 result = 2.0
+[2022-11-01 19:35:11,321] INFO: input numbers are 1.0 and 1.0
+[2022-11-01 19:35:11,322] add 1.0, 1.0 result = 2.0
+[2022-11-01 19:37:43,728] INFO: input numbers are 1.0 and 1.0
+[2022-11-01 19:37:43,728] add 1.0, 1.0 result = 2.0
+[2022-11-01 19:55:14,611] Warning: Invalid Input
+[2022-11-01 20:44:07,871] INFO: input numbers are 3.0 and 123123.0
+[2022-11-01 20:44:45,205] INFO: input numbers are 1.0 and 1.0
+[2022-11-01 20:45:31,035] INFO: input numbers are 1.0 and 1.0
+[2022-11-01 20:50:23,962] INFO: input numbers are 1.0 and 1.0
+[2022-11-01 20:51:57,592] Warning: Invalid Input
+[2022-11-01 20:51:57,592] Warning: Invalid Input
+[2022-11-01 20:52:02,156] INFO: input numbers are 7.0 and 7.0
+[2022-11-01 20:52:02,156] INFO: input numbers are 7.0 and 7.0
+[2022-11-01 20:52:02,157] add 7.0, 7.0 result = 14.0
+[2022-11-01 20:52:02,157] add 7.0, 7.0 result = 14.0
+[2022-11-01 20:52:39,801] INFO: input numbers are 3.0 and 3.0
+[2022-11-01 20:52:39,802] add 3.0, 3.0 result = 6.0
+[2022-11-01 20:53:51,157] Errorno: could not convert string to float: 
+[2022-11-01 20:53:51,158] add 3.0, 1.0 result = 4.0
+[2022-11-01 20:54:03,679] Errorno: could not convert string to float: 
+[2022-11-01 20:54:03,680] add 3.0, 1.0 result = 4.0
+[2022-11-01 21:06:12,226] Errorno: could not convert string to float: 
+[2022-11-01 21:06:41,179] INFO: input numbers are 2.0 and 3.0
+[2022-11-01 21:06:41,180] add 3.0, 2.0 result = 5.0
+[2022-11-01 21:06:44,500] Errorno: could not convert string to float: 
+[2022-11-01 21:06:44,501] add 3.0, 2.0 result = 5.0
+[2022-11-01 21:23:05,549] INFO: input numbers are 1.0 and 1.0
+[2022-11-01 21:23:05,549] add 1.0, 1.0 result = 2.0
+[2022-11-01 21:23:09,261] Errorno: could not convert string to float: 
+[2022-11-01 21:33:08,504] INFO: input numbers are 1.0 and 1.0
+[2022-11-01 21:33:08,505] add 1.0, 1.0 result = 2.0
+[2022-11-01 21:33:52,946] INFO: input numbers are 1.0 and 1.0
+[2022-11-01 21:33:52,947] add 1.0, 1.0 result = 2.0
+[2022-11-01 21:33:59,337] INFO: input numbers are 2.0 and 3.0
+[2022-11-01 21:33:59,338] add 3.0, 2.0 result = 5.0
+[2022-11-01 21:34:03,115] Errorno: could not convert string to float: 'e'
+[2022-11-01 21:34:18,280] INFO: input numbers are 1.0 and 2.0
+[2022-11-01 21:34:18,280] add 2.0, 1.0 result = 3.0
+[2022-11-01 21:34:29,791] INFO: input numbers are 2.0 and 3.0
+[2022-11-01 21:34:29,791] add 3.0, 2.0 result = 5.0
+[2022-11-01 21:34:36,670] INFO: input numbers are 3.0 and 0.0
+[2022-11-01 21:34:36,671] multiply 0.0, 3.0 result = 0.0
+[2022-11-01 21:34:43,511] INFO: input numbers are 3.0 and 0.0
+[2022-11-01 21:34:43,512] Error: float division by zero
