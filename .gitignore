@@ -216,5 +216,4 @@ cython_debug/
 .ionide
 
 ### OSS Middle Project
-*.log
 # End of https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode,python
